@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: up2social
+Contributors: SoShake
 Donate link: http://soshake.com/
 Tags: social, share, facebook, twitter, pinterest, linkedin, Google, Google+, social network, like, tweet, Facebook Connect, Open Graph, Social Graph, up2social, soshake
 Requires at least: 2.0.2

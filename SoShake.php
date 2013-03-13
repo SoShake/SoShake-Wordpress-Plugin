@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: SoShake by Up 2 Social
-Plugin URI: http://wordpress.org/extend/plugins/soshake-by-up2social/
+Plugin Name: SoShake
+Plugin URI: https://github.com/SoShake/SoShake-Wordpress-Plugin
 Description: easy social plugins integration.
 Version: 2.0
-Author: Up 2 Social
+Author: SoShake
 Author URI: http://soshake.com
 */
 ?>
