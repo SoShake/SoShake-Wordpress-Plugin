@@ -18,11 +18,15 @@ Of course, you can install and configure sharing buttons in only 3 clicks for yo
 
 Once you fully use the sharing buttons, SoShake allows you to add new features that we developed: Social buttons will not be only about sharing anymore.
 You'll be able to show more content after sharing, propose a visitor to like your Facebook page or your Twitter accourt, to subscribe to your RSS feed, to watch your last video…
+Just go to http://soshake.com to create an account and you will be able to create some awesome post-share action.
+** A SoShake account is not required to insert the share buttons on your website **
 
 SoShake is a solution to improve your social activity with your visitors.
 More interactions = more views = more sharing = more fans...
 
 SoShake is 100% free.
+
+If you do use it with a SoShake account, SoShake will record all social sharing actions made by your visitors mainly to provide you usefull stats about what has been shared, how it has been shared and where it has been shared.
 
 == Installation ==
 

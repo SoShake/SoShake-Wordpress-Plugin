@@ -212,7 +212,7 @@ function soshake_fb_add_og_protocol() {
 		soshake_fb_output_og_protocol( $property, $content );
 	}
         if(get_option("up2-fbid") == "") {
-                ?><meta property="fb:admins" content="<? echo get_option("up2-fbid") ?>"/><?php
+                ?><meta property="fb:admins" content="<?php echo get_option("up2-fbid") ?>"/><?php
         }
 }
 

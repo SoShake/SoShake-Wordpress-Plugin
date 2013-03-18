@@ -16,25 +16,25 @@ if(function_exists("file_get_contents") && strtolower(ini_get("allow_url_fopen")
                         <tr>
                                 <td>
                                         <div class="up2-stat">
-                                                <div class="up2-nb"><? echo $stats->result->views ?></div>
+                                                <div class="up2-nb"><?php echo $stats->result->views ?></div>
                                                 <div class="up2-lgd">Views</div>
                                         </div>
                                 </td>
                                 <td>
                                         <div class="up2-stat">
-                                                <div class="up2-nb"><? echo $stats->result->shares ?></div>
+                                                <div class="up2-nb"><?php echo $stats->result->shares ?></div>
                                                 <div class="up2-lgd">Shares</div>
                                         </div>
                                 </td>
                                 <td>
                                         <div class="up2-stat" style="margin-right: 0">
-                                                <div class="up2-nb"><? echo $stats->result->actions ?></div>
+                                                <div class="up2-nb"><?php echo $stats->result->actions ?></div>
                                                 <div class="up2-lgd">SoShake</div>
                                         </div>
                                 </td>
                         </tr>
                 </table>
-                <a href="http://soshake.com/front/stats.html" target="_blank"><img src="<? echo plugin_dir_url(__FILE__) ?>../images/Dashboard-SoShake-Wordpress.png" id="up2-stat-shadow" /></a>
+                <a href="http://soshake.com/front/stats.html" target="_blank"><img src="<?php echo plugin_dir_url(__FILE__) ?>../images/Dashboard-SoShake-Wordpress.png" id="up2-stat-shadow" /></a>
                 <br />
                 <a href="http://soshake.com/front" target="_blank" id="more_link">More >></a>
         </div>

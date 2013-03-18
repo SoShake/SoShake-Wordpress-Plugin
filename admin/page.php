@@ -8,14 +8,14 @@ if(isset($_POST["save"])) {
 }
 
 ?>
-<link rel="stylesheet" href="<? echo plugin_dir_url(__FILE__) ?>admin.css" />
+<link rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__) ?>admin.css" />
 <div class="up2-admin">
         <div class="up2-panel">
                 <div id="up2-menu">
-                        <a href="?page=soshake-stats" id="up2-dash" class="up2-button <? if($page == "dashboard") echo "active"; ?>"></a>
-                        <a href="?page=soshake-basic" id="up2-basic" class="up2-button <? if($page == "basic") echo "active"; ?>"></a>
-                        <a href="?page=soshake-advanced" id="up2-advanced" class="up2-button <? if($page == "advanced") echo "active"; ?>"></a>
-                        <a href="?page=soshake-more" id="up2-more" class="up2-button <? if($page == "more") echo "active"; ?>"></a>
+                        <a href="?page=soshake-stats" id="up2-dash" class="up2-button <?php if($page == "dashboard") echo "active"; ?>"></a>
+                        <a href="?page=soshake-basic" id="up2-basic" class="up2-button <?php if($page == "basic") echo "active"; ?>"></a>
+                        <a href="?page=soshake-advanced" id="up2-advanced" class="up2-button <?php if($page == "advanced") echo "active"; ?>"></a>
+                        <a href="?page=soshake-more" id="up2-more" class="up2-button <?php if($page == "more") echo "active"; ?>"></a>
                 </div>
                 <div id="up2-page">
                         <?php require($soshake_plugin_directory."/admin/".$page.".php"); ?>
@@ -46,16 +46,16 @@ if(isset($_POST["save"])) {
                                         <p>
                                                 <form method="post" action="htpp://soshake.com/front/inscription.html" target="_blank">
                                                 <label>
-                                                        <img src="<? echo plugin_dir_url(__FILE__) ?>../images/email.png" id="up2-form-email" />
+                                                        <img src="<?php echo plugin_dir_url(__FILE__) ?>../images/email.png" id="up2-form-email" />
                                                         <input type="text" name="mail" value="Your E-Mail address" id="up2-form-mail-input" onclick="javascript:if(this.value == 'Your E-Mail address') { this.value = ''; }" />
                                                 </label>
                                                 <label>
-                                                        <img src="<? echo plugin_dir_url(__FILE__) ?>../images/login.png" id="up2-form-login" />
+                                                        <img src="<?php echo plugin_dir_url(__FILE__) ?>../images/login.png" id="up2-form-login" />
                                                         <input type="text" name="login" value="Your Login" id="up2-form-login-input" onclick="javascript:if(this.value == 'Your Login') { this.value = ''; }" />
                                                 </label>
                                                 <label>
-                                                        <img src="<? echo plugin_dir_url(__FILE__) ?>../images/url.png" id="up2-form-url" />
-                                                        <input type="text" name="url" value="<? echo site_url() ?>" id="up2-form-url-input" />
+                                                        <img src="<?php echo plugin_dir_url(__FILE__) ?>../images/url.png" id="up2-form-url" />
+                                                        <input type="text" name="url" value="<?php echo site_url() ?>" id="up2-form-url-input" />
                                                 </label>
                                                 <label>
                                                         <input type="submit" name="submit" value="Create an account for free on SoShake.com" />
@@ -85,16 +85,16 @@ if(isset($_POST["save"])) {
                                 <p>
                                         <form method="post" action="htpp://soshake.com/front/inscription.html" target="_blank">
                                         <label>
-                                                <img src="<? echo plugin_dir_url(__FILE__) ?>../images/email.png" id="up2-form-email" />
+                                                <img src="<?php echo plugin_dir_url(__FILE__) ?>../images/email.png" id="up2-form-email" />
                                                 <input type="text" name="mail" value="Your E-Mail address" id="up2-form-mail-input" onclick="javascript:if(this.value == 'Your E-Mail address') { this.value = ''; }" />
                                         </label>
                                         <label>
-                                                <img src="<? echo plugin_dir_url(__FILE__) ?>../images/login.png" id="up2-form-login" />
+                                                <img src="<?php echo plugin_dir_url(__FILE__) ?>../images/login.png" id="up2-form-login" />
                                                 <input type="text" name="login" value="Your Login" id="up2-form-login-input" onclick="javascript:if(this.value == 'Your Login') { this.value = ''; }" />
                                         </label>
                                         <label>
-                                                <img src="<? echo plugin_dir_url(__FILE__) ?>../images/url.png" id="up2-form-url" />
-                                                <input type="text" name="url" value="<? echo site_url() ?>" id="up2-form-url-input" />
+                                                <img src="<?php echo plugin_dir_url(__FILE__) ?>../images/url.png" id="up2-form-url" />
+                                                <input type="text" name="url" value="<?php echo site_url() ?>" id="up2-form-url-input" />
                                         </label>
                                         <label>
                                                 <input type="submit" name="submit" value="Create an account for free on SoShake.com" />
