@@ -66,8 +66,8 @@ if ($post) {
                                         </li>
                                         <?php $i++; if($i == 6) break; endwhile; ?>
                                 </ul>
-                                <img src="http://up2social.com/lib/images/arrow_left.png" id="up2-arrow-left" />
-                                <img src="http://up2social.com/lib/images/arrow_right.png" id="up2-arrow-right" />
+                                <img src="http://soshake.com/lib/images/arrow_left.png" id="up2-arrow-left" />
+                                <img src="http://soshake.com/lib/images/arrow_right.png" id="up2-arrow-right" />
                         </div>
                         <div id="u2s-CrossSellProduct-grid" style="display:none;">
                                 <div class="up2-text"><?php echo $text_intro ?></div>

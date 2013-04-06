@@ -1,10 +1,10 @@
-.up2-admin {
+.sshk-admin {
     width: 100%;
     display: table;
     padding: 50px;
 }
 
-.up2-panel {
+.sshk-panel {
     display: table-cell;
     padding: 10px;
     border: solid 1px #ccc;
@@ -12,97 +12,97 @@
     margin-right: 50px;
     height: 100%;
 }
-.up2-sidebar {
+.sshk-sidebar {
     display: table-cell;
     width: 350px;
     padding-left: 50px;
 }
 
-.up2-sidebar .up2-bloc {
+.sshk-sidebar .sshk-bloc {
     border: solid 1px #ccc;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-#up2-follow.up2-bloc {}
-.up2-twitter-follow {margin: 0 auto;width: 141px;margin-bottom: 17px;}
+#sshk-follow.sshk-bloc {}
+.sshk-twitter-follow {margin: 0 auto;width: 141px;margin-bottom: 17px;}
 
-.up2-bloc label {
+.sshk-bloc label {
         display: block;
         margin-bottom: 5px;
 }
 
-.up2-bloc img {
+.sshk-bloc img {
         margin-right: 10px;
         margin-top: 2px;
 }
 
-img#up2-form-email {
+img#sshk-form-email {
     float: left;
     margin-right: 12px;
 }
-img#up2-form-login {
+img#sshk-form-login {
     margin-right: 25px;
     float: left;
 }
-img#up2-form-url {
+img#sshk-form-url {
     margin-right: 21px;
     float: left;
 }
 
-#up2-menu {
+#sshk-menu {
     display: table;
     width: 100%;
     height: 90px;
     margin-top: -45px;
 }
-#up2-menu .up2-button {
+#sshk-menu .sshk-button {
 }
-#up2-dash, #up2-basic, #up2-advanced, #up2-more {
+#sshk-dash, #sshk-basic, #sshk-advanced, #sshk-more {
     display: table-cell;
     width: 20%;
     text-align: center;
     height: 90px;
 }
-#up2-dash {
+#sshk-dash {
         background: url('../images/dashboard.png') no-repeat;
         background-position: center;
 }
-#up2-basic {
+#sshk-basic {
         background: url('../images/basic.png') no-repeat;
         background-position: center;
 }
-#up2-advanced {
+#sshk-advanced {
         background: url('../images/advanced.png') no-repeat;
         background-position: center;
 }
-#up2-more {
+#sshk-more {
         background: url('../images/more.png') no-repeat;
         background-position: center;
 }
-#up2-dash.active {
+#sshk-dash.active {
         background: url('../images/dashboard-blue.png') no-repeat;
         background-position: center;
         height: 100px;
 }
-#up2-basic.active {
+#sshk-basic.active {
         background: url('../images/basic-blue.png') no-repeat;
         background-position: center;
         height: 100px;
 }
-#up2-advanced.active {
+#sshk-advanced.active {
         background: url('../images/advanced-blue.png') no-repeat;
         background-position: center;
         height: 100px;
 }
-#up2-more.active {
+#sshk-more.active {
         background: url('../images/more-blue.png') no-repeat;
         background-position: center;
         height: 100px;
 }
 
-#up2-page {
+#sshk-page {
     margin-top: 15px;
 }
 
@@ -110,7 +110,7 @@ img#up2-form-url {
         font-family: 'LeagueGothicRegular';src: url('../fonts/League-Gothic/League_Gothic-webfont.eot');src: url('../fonts/League-Gothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/League-Gothic/League_Gothic-webfont.woff') format('woff'), url('../fonts/League-Gothic/League_Gothic-webfont.ttf') format('truetype'), url('../fonts/League-Gothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');font-weight: normal;font-style: normal;
 }
 
-.up2-stat {
+.sshk-stat {
         background-color: #353333;border-radius: 4px;color: #fff;
         font-size: 110px;text-align: center;
         width: 100%;-moz-border-radius: 4px;-webkit-border-radius: 4px;margin-top:0;
@@ -118,10 +118,10 @@ img#up2-form-url {
         line-height: initial;
         margin-right: 5px;
 }
-.up2-nb {
+.sshk-nb {
         margin: 0;
 }
-.up2-lgd {
+.sshk-lgd {
         color: #868585;display: block;
         font-size: 30px;
         margin-top: -5px;
@@ -129,9 +129,9 @@ img#up2-form-url {
 
 #more_link {}
 
-.up2-basic-network {}
-.up2-basic-network p {}
-#up2-stat-shadow {
+.sshk-basic-network {}
+.sshk-basic-network p {}
+#sshk-stat-shadow {
     width: 100%;
     display: block;
     margin: 15px auto;

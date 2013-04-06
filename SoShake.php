@@ -20,8 +20,6 @@ $soshake_plugin_directory = dirname(__FILE__);
 //Creation des widget
 require($soshake_plugin_directory."/php/functions.php");
 require($soshake_plugin_directory."/WidgetSoShake.php");
-add_action('widgets_init', 'register_Widget_SoShake_Facebook_Connect');
-add_action('widgets_init', 'register_Widget_SoShake_Fanbox');
 
 //Insertion des balises OpenGraph dans le header
 require_once( $soshake_plugin_directory . '/php/open-graph.php');
@@ -37,7 +35,7 @@ add_filter('the_content', 'insert_SoShake_content' );
 //add_filter('the_excerpt', 'insert_SoShake_excerpt' );
 
 if(isset($_POST["up2FBConnect"]) && $_POST["up2FBConnect"] == 1) {
-        require_once(str_replace("/wp-content/plugins/soshake-by-up2social", "", $soshake_plugin_directory)."/wp-includes/pluggable.php");
+        require_once(str_replace("/wp-content/plugins/SoShake-Wordpress-Plugin", "", $soshake_plugin_directory)."/wp-includes/pluggable.php");
 	if($user = get_users("search=".$_POST["email"])) {
 		$user_id = $user[0]->ID;
 	} else {

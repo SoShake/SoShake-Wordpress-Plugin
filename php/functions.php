@@ -1,7 +1,4 @@
 <?php
-// Register the widget
-function register_Widget_SoShake_Facebook_Connect () { return register_widget("Widget_SoShake_Facebook_Connect"); }
-function register_Widget_SoShake_Fanbox () { return register_widget("Widget_SoShake_Fanbox"); }
 
 function addScriptsSoShake () {
         wp_enqueue_script('jquery');
@@ -60,7 +57,7 @@ function create_Soshake($content) {
                         if(get_option("soshake-layout")) $layout = get_option("soshake-layout");
                         else $layout = "horizontal";
                         foreach(get_option("soshake-buttons") as $button) {
-                                $return .= '<div class="up2-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
+                                $return .= '<div class="sshk-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
                         }
                         $return .= '<div style="clear:both"></div></div>'.$content;
                         break;
@@ -69,7 +66,7 @@ function create_Soshake($content) {
                         if(get_option("soshake-layout")) $layout = get_option("soshake-layout");
                         else $layout = "vertical";
                         foreach(get_option("soshake-buttons") as $button) {
-                                $return .= '<div class="up2-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
+                                $return .= '<div class="sshk-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
                         }
                         $return .= '<div style="clear:both"></div></div>'.$content;
                         break;
@@ -78,7 +75,7 @@ function create_Soshake($content) {
                         if(get_option("soshake-layout")) $layout = get_option("soshake-layout");
                         else $layout = "vertical";
                         foreach(get_option("soshake-buttons") as $button) {
-                                $return .= '<div class="up2-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
+                                $return .= '<div class="sshk-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
                         }
                         $return .= '<div style="clear:both"></div></div>'.$content;
                         break;
@@ -87,7 +84,7 @@ function create_Soshake($content) {
                         if(get_option("soshake-layout")) $layout = get_option("soshake-layout");
                         else $layout = "horizontal";
                         foreach(get_option("soshake-buttons") as $button) {
-                                $return .= '<div class="up2-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
+                                $return .= '<div class="sshk-'.$button.'" style="float:left;" '.$layouts[$layout][$button].' categorie="'.strip_tags(get_the_category_list("-")).'" url="'.apply_filters('the_permalink', get_permalink()).'"></div>';
                         }
                         $return .= '<div style="clear:both"></div></div>';
                         break;
