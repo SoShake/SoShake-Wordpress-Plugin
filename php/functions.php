@@ -4,11 +4,11 @@ function addScriptsSoShake () {
         wp_enqueue_script('jquery');
 }
 function addScriptAdminSoShake () {
-        add_menu_page('SoShake', 'SoShake', 1, 'soshake_menu', 'insertPluginFile');
-        add_submenu_page("soshake_menu", "Parameters", "Dashboard", 1, "soshake-stats", "insertStatFile");
-        add_submenu_page("soshake_menu", "Parameters", "Basic settings", 1, "soshake-basic", "insertPluginFile");
-        add_submenu_page("soshake_menu", "Parameters", "Advanced settings", 1, "soshake-advanced", "insertAdvanceFile");
-        add_submenu_page("soshake_menu", "Parameters", "More", 1, "soshake-more", "insertSoshakeMoreFile");
+        add_menu_page('SoShake', 'SoShake', 10, 'soshake_menu', 'insertPluginFile');
+        add_submenu_page("soshake_menu", "Parameters", "Dashboard", 10, "soshake-stats", "insertStatFile");
+        add_submenu_page("soshake_menu", "Parameters", "Basic settings", 10, "soshake-basic", "insertPluginFile");
+        add_submenu_page("soshake_menu", "Parameters", "Advanced settings", 10, "soshake-advanced", "insertAdvanceFile");
+        add_submenu_page("soshake_menu", "Parameters", "More", 10, "soshake-more", "insertSoshakeMoreFile");
 }
 function insertPluginFile () { global $soshake_plugin_directory ; $page = "basic"; require($soshake_plugin_directory."/admin/page.php"); }
 function insertStatFile () { global $soshake_plugin_directory ; $page = "dashboard"; require($soshake_plugin_directory."/admin/page.php"); }
